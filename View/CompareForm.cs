@@ -86,16 +86,6 @@ namespace DirCompare.View
 		}
 
 		/// <summary>
-		/// Form close handler.
-		/// </summary>
-		/// <param name="e">Event data.</param>
-		protected override void OnClosed(EventArgs e)
-		{
-			base.OnClosed(e);
-			Application.Exit();
-		}
-
-		/// <summary>
 		/// Initializes the form controls.
 		/// </summary>
 		private void InitControls()
@@ -205,7 +195,6 @@ namespace DirCompare.View
 		private void BtnCloseClick(object sender, EventArgs e)
 		{
 			Close();
-			Application.Exit();
 		}
 
 		/// <summary>

@@ -179,8 +179,8 @@ namespace DirCompare.Control
 
 				for (int i = 0; i < iterations; i++)
 				{
-						fs1.Read(one, 0, bytesToRead);
-						fs2.Read(two, 0, bytesToRead);
+					fs1.Read(one, 0, bytesToRead);
+					fs2.Read(two, 0, bytesToRead);
 
 					if (BitConverter.ToInt64(one, 0) != BitConverter.ToInt64(two, 0))
 					{
